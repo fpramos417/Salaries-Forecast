@@ -1,4 +1,4 @@
-# University Employee Earnings Forecasting**
+# University Employee Earnings Forecasting
 
 This repository contains code for building and evaluating machine learning models to predict employee earnings based on university data. The dataset employed originates from [https://www.kaggle.com/datasets/asaniczka/university-employee-salaries-2011-present](https://www.kaggle.com/datasets/asaniczka/university-employee-salaries-2011-present) (University Employee Salaries, 2011-Present by asanicžka).
 
@@ -39,7 +39,7 @@ The code currently implements the following models:
 - **Root Mean Squared Error (RMSE):** Measures the average difference between predicted and actual earnings. Lower RMSE indicates better prediction accuracy.
 - **R-squared (R²):** Assesses the proportion of variance in earnings explained by the model. Higher R² signifies a stronger relationship between features and earnings.
 
-**Evaluation
+**Evaluation**
 
 Based on the evaluation metrics (RMSE and R²), the Decision Tree model outperforms the Ridge Regression model. Therefore, the Decision Tree is selected as the final model for predicting employee earnings.
 **Code Structure**
